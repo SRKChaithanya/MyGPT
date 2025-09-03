@@ -9,7 +9,7 @@ from azure.core.credentials import AzureKeyCredential
 def main():    
     load_dotenv()
     model_name = "openai/gpt-4o"
-    token = os.environ["GITHUB_TOKEN"]
+    token = os.environ["GGITHUB_TOKEN"]
     endpoint = "https://models.github.ai/inference"
     st.title("MyGPT")
     st.header("Your Personal AI Assistant")
