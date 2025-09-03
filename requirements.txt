@@ -1,0 +1,5 @@
+streamlit
+streamlit-chat
+azure-ai-inference
+python-dotenv
+
